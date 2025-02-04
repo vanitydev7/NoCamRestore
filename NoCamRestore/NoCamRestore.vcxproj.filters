@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mem\mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mem\mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mem">
+      <UniqueIdentifier>{0df3027a-125f-46a2-8f8c-f41549d9ab62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
